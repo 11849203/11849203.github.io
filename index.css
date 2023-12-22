@@ -1,3 +1,43 @@
 body{
     background-image: url(1.jpg);
+    margin: 10%;
+}
+
+/*导航条*/
+ul.one {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li.one {
+    float: left;
+    padding-right: 5%;
+}
+
+li.one a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 1.5em;
+    
+    
+}
+
+li.one a:hover {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 1.5em;
+    background-color: azure;
+}
+
+li.one a.active{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight:bold;
 }
